@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sakshi Bhusari — Portfolio</title>
+<meta name="description" content="Portfolio of Sakshi Bhusari, Information Technology graduate and Python Full Stack learner." />
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg fixed-top nav-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#top">Sakshi Bhusari</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link btn-resume" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="top" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h4 class="eyebrow">Hello World!</h4>
+      <h1>I'm Sakshi Bhusari</h1>
+      <p>An Information Technology graduate currently deepening my skills through a Python Full Stack course. I enjoy building clean, functional web pages. Currently looking for my first full-time role.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-ink">See my work</a>
+        <a href="mailto:sakshibhusari05@gmail.com" class="btn btn-outline-ink">Say hello</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="images/sakshi.jpeg" alt="Sakshi Bhusari">
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-body reveal">
+      <p>I recently completed my Bachelor of Engineering in Information Technology from Anuradha College of Engineering and Technology, Chikhli.<br>Right now I'm sharpening my web development foundations through a Python Full Stack course, where I've been practicing HTML, CSS, JavaScript, and Bootstrap by building a series of webpage assignments. I'm looking forward to combining that front-end foundation with Python on the backend as I keep learning.</p>
+      <a href="downloads/Sakshi_Resume.pdf" class="btn btn-ink" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+    <div class="row g-4 skills-row">
+      <div class="col-md-4">
+        <h3 class="skill-cat">Languages</h3>
+        <ul class="skill-list">
+          <li><img src="images/html.png" alt="HTML"> HTML</li>
+          <li><img src="images/css.jpg" alt="CSS"> CSS</li>
+          <li><img src="images/js.png" alt="JavaScript"> JavaScript</li>
+          <li><img src="images/py.png" alt="Python"> Python (currently learning)</li>
+          <li><img src="images/sql.png" alt="SQL"> SQL (basics)</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3 class="skill-cat">Tools & Frameworks</h3>
+        <ul class="skill-list">
+          <li><img src="images/bt.png" alt="Bootstrap"> Bootstrap</li>
+          <li><img src="images/react.png" alt="React"> React (currently learning)</li>
+          <li><img src="images/sl.png" alt="scikit-learn"> scikit-learn (for ML project)</li>
+          <li><img src="images/git.png" alt="Git"> Git & GitHub</li>
+          <li><img src="images/vscode.png" alt="VS Code"> VS Code</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3 class="skill-cat">Also comfortable with</h3>
+        <ul class="skill-list">
+          <li>Responsive web design</li>
+          <li>Machine learning fundamentals</li>
+          <li>Problem solving</li>
+          <li>Quick learner — new frameworks & tools</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p>My final-year project plus webpage assignments from my Python Full Stack course — click any card to open the live page.</p>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/sm.png" alt="SevenMentor Training Institute">
+          </div>
+          <h3>SevenMentor Training Institute</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>An institute landing page featuring course categories, certifications, and placement highlights, with a video banner and icon-driven sections.</p>
+          <div class="project-links">
+            <a href="projects/sevenmentor/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/gym.jpg" alt="Gymso Fitness">
+          </div>
+          <h3>Gymso Fitness</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>A gym and fitness studio site with class listings, a trainer team section, and an embedded location map.</p>
+          <div class="project-links">
+            <a href="projects/gym/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/CA.jpg" alt="Creative Agency Landing Page">
+          </div>
+          <h3>Creative Agency Landing Page</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>A responsive agency-style page covering hero sections, service grids, pricing tables, testimonials, and a footer layout.</p>
+          <div class="project-links">
+            <a href="projects/creative-agency/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/cuda.png" alt="Cuda Magazine">
+          </div>
+          <h3>Cuda Magazine</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>A magazine-style layout with a services grid and a visual portfolio showcase, focused on grid-based image layouts.</p>
+          <div class="project-links">
+            <a href="projects/cuda/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/swimming.png" alt="Swimming Academy">
+          </div>
+          <h3>Swimming Academy</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>A promotional site for a swim school with class schedules for children and teens, plus an embedded Google Map for the academy's location.</p>
+          <div class="project-links">
+            <a href="projects/swimming/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/kid.jpg" alt="KidKinder Learning">
+          </div>
+          <h3>KidKinder Learning</h3>
+          <p>Technologies: HTML, CSS</p>
+          <p>A playful kids' education site with class categories, a portfolio gallery, and parent testimonials.</p>
+          <div class="project-links">
+            <a href="projects/kid/index.html" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-md-6 reveal">
+        <article class="project-card featured">
+          <div class="project-image">
+            <img src="images/spam.jpg" alt="Spam Detection Project">
+          </div>
+          <h3>Spam Detection using Machine Learning</h3>
+          <p>Technologies: Python, Django, HTML, CSS, JavaScript, Scikit-learn</p>
+          <p>A Django web app that classifies messages as Spam or Ham using a Naive Bayes classifier trained with scikit-learn on labeled email data.</p>
+          <div class="project-links">
+            <a href="projects/spam-detection/index.html" target="_blank" rel="noopener">UI preview</a>
+            <a href="downloads/spam-detection-source.zip">Download code</a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+    <ol class="education reveal">
+      <li>
+        <span class="education-year">2026 — Present</span>
+        <h3>Python Full Stack Development Course</h3>
+        <p>Currently learning — completed foundations in HTML, CSS, JavaScript, and Bootstrap by building webpages; now progressing into Python back-end development.</p>
+      </li>
+      <li>
+        <span class="education-year">2022 — 2026</span>
+        <h3>B.E.(Information Technology) - CGPA: 7.6</h3>
+        <p>Anuradha College of Engineering and Technology, Chikhli, Dist. Buldana · Sant Gadge Baba Amravati University</p>
+      </li>
+      <li>
+        <span class="education-year">2022</span>
+        <h3>HSC - 87.50%</h3>
+        <p>Shri Shivaji Junior College, Chikhli, Dist. Buldana</p>
+      </li>
+      <li>
+        <span class="education-year">2020</span>
+        <h3>SSC - 92%</h3>
+        <p>Shri Shivaji High School, Chikhli, Dist. Buldana</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Get in touch</h2>
+      <p>Have a role, project, or just a question about something I built? My inbox is open.</p>
+    </div>
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label" for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+          <div class="invalid-feedback">Please enter your name.</div>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+          <div class="invalid-feedback">Please enter a valid email.</div>
+        </div>
+        <div class="col-12">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+          <div class="invalid-feedback">Please write a short message.</div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-ink">Send message</button>
+          <span class="form-status" id="formStatus"></span>
+        </div>
+      </div>
+    </form>
+
+    <div class="social-row">
+      <a href="mailto:sakshibhusari05@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+      <a href="https://github.com/sakshi134" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/sakshi-bhusari-461931293" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>©<span id="year"></span> Sakshi Bhusari. Built with HTML, CSS, JS & Bootstrap.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
